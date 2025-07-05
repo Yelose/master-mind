@@ -1,0 +1,21 @@
+# Node.js (si usas Sass con npm o algún bundler como Vite o Parcel)
+node_modules/
+dist/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales de VS Code
+.vscode/
+
+# Salida de compiladores/transpiladores
+*.log
+*.tmp
+
+# Sistemas operativos
+ehthumbs.db
+Icon?
+
+# Cache del navegador (por si sirves desde local algún build)
+.cache/

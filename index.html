@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/css/styles.css" />
+    <script src="./src/js/main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Master Mind</h1>
+      <p>Puntuación: <span id="record">0</span></p>
+    </header>
+    <main>
+      <aside>
+        <header>Mis puntuaciones</header>
+        <main id="records"></main>
+        <footer>
+          <button>Borrar Puntuaciones</button>
+          <button>Instrucciones</button>
+        </footer>
+      </aside>
+      <section id="game">
+        <header id=""></header>
+        <label for="pegs">Número de chinchetas:</label>
+        <select id="pegs" name="pegs">
+          <option value="3">3</option>
+          <option value="4" selected>4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+        </select>
+
+        <label for="colors">Colores</label>
+        <select id="colors" name="colors">
+          <option value="4">4</option>
+          <option value="5" selected>5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+        </select>
+        <button onclick="newGame()">Nueva Partida</button>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
